@@ -1,0 +1,38 @@
+
+	Introduction :-
+
+Pharmacy Management System is based on a concept of taking medicine orders with payments. In this system, there are no login features. The user can use the features of it which include taking new medicine order, deleting, modifying medicine orders, printing the receipt of payment and viewing the summary of total sales within a day. This project contains limited features, but the essential one.
+Talking about the features of the Pharmacy Management System, the user can take a new medicine order. For this, the user has to provide the order number, name, date, number of medicine and select medicine. The user can delete the latest medicine order by providing the order number. In order to modify the order, he/she has to enter each and every detail. After taking orders, the payment is to be done from the receipt section. Here in the receipt section, the system asks for a receipt number. Then the system displays total receipt with medicine type, name, quantity, and total price.
+The last feature of this project is about viewing the summary of total sales. This section displays each and every sale record in a list view. The system does not use any external files to store the data permanently. Pharmacy Management system is developed using C++ Programming Language and different variables, strings have been used for the development of it. Pharmacy Management System in C++ Programming with source code is free to download. Use for educational purposes only! This project provides the simplest system for taking medicine orders and payments.
+
+	Features :-
+
+1. Take medicine orders
+2. Delete and Modify medicine orders
+3. Print Receipt
+4. Make Payments
+5. Summary of Total Sales
+
+	Modules of Project :-
+
+Class Order 
+In this Class there is two functions i.e. take_order(), delete_order()
+take_order() – This function is used for taking the orders of Medicines.
+delete_order() – This function is used to delete particular record from the data
+In this class there is one constructor and destructor is used, constructor to intitialize the object and destructor to free the memory used by the objects.
+
+Class Modification
+In this class there is one function is used i.e. modify() to modify the desired changes in the records. This class inherits the class order.
+
+Class Details
+In this class there is two functions is used i.e. order_list() and daily_summary(). This class inherits the class order and modification in public mode.
+order_list() – This function is used to Pay the bills/orders for the customers/users.
+daily_summary() - This function is used to display all the sales happening in the Pharmacy through this software.
+
+Class Exitt
+This class has one function i.e. exit() which has functioning to exit from the program.
+Structure node
+This structure is used for creation of linked list and to store the data dynamically. We used structure because in runtime we don’t know how many records are going to be stored so that’s why we had created linked list to store the data dynamically.
+Int main()
+This is the main function used for creation of objects. It is the point from where program begins.
+
